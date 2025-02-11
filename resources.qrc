@@ -1,0 +1,22 @@
+<RCC>
+  <qresource prefix="/">
+    <file>quiz.qss</file>
+    <file>icons/checkmark.svg</file>
+    <file>icons/ai_icon.png</file>
+    <file>icons/classes_icon.png</file>
+    <file>icons/clear_icon.png</file>
+    <file>icons/copy_icon.png</file>
+    <file>icons/delete.png</file>
+    <file>icons/edit.png</file>
+    <file>icons/generated_links_icon.png</file>
+    <file>icons/import_icon.png</file>
+    <file>icons/questions_icon.png</file>
+    <file>icons/quiz_icon.png</file>
+    <file>icons/save_icon.png</file>
+    <file>icons/search_icon.png</file>
+    <file>icons/settings_icon.png</file>
+    <file>icons/subjects_icon.png</file>
+    <file>icons/topics_icon.png</file>
+    <file>icons/word_icon.png</file>
+  </qresource>
+</RCC>

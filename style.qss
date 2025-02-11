@@ -1,0 +1,142 @@
+/* Base application styling */
+QWidget {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 12px;
+    color: #2c3e50;  /* Dark blue text */
+    background-color: #f0f4f8;  /* Light blue background */
+}
+
+/* Main window and central widgets */
+QMainWindow {
+    background-color: #ffffff;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #3498db;  /* Primary blue */
+    color: #ffffff;
+    border: 1px solid #2980b9;
+    border-radius: 4px;
+    padding: 8px 16px;
+    min-width: 80px;
+}
+
+QPushButton:hover {
+    background-color: #2980b9;  /* Darker blue */
+}
+
+QPushButton:pressed {
+    background-color: #1f618d;  /* Deep blue */
+}
+
+QPushButton:disabled {
+    background-color: #bdc3c7;
+    border-color: #95a5a6;
+}
+
+/* Input fields */
+QLineEdit, QComboBox, QTextEdit {
+    background-color: #ffffff;
+    border: 1px solid #d6dbdf;
+    border-radius: 3px;
+    padding: 6px;
+    selection-background-color: #3498db;
+}
+
+QLineEdit:focus, QComboBox:focus, QTextEdit:focus {
+    border: 1px solid #3498db;
+}
+
+/* Scrollbars */
+QScrollBar:vertical {
+    background: #ecf0f1;
+    width: 12px;
+}
+
+QScrollBar::handle:vertical {
+    background: #3498db;
+    min-height: 20px;
+    border-radius: 6px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background: none;
+}
+
+/* Tabs */
+QTabWidget::pane {
+    border-top: 2px solid #3498db;
+}
+
+QTabBar::tab {
+    background: #ecf0f1;
+    color: #7f8c8d;
+    padding: 8px 20px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+QTabBar::tab:selected {
+    background: #ffffff;
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+}
+
+/* Group boxes */
+QGroupBox {
+    border: 1px solid #d6dbdf;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* Checkboxes and radio buttons */
+QCheckBox::indicator, QRadioButton::indicator {
+    width: 16px;
+    height: 16px;
+}
+
+QCheckBox::indicator:checked {
+    image: url(:/icons/checkbox_checked.svg);
+}
+
+QRadioButton::indicator:checked {
+    image: url(:/icons/radio_checked.svg);
+}
+
+/* Progress bars */
+QProgressBar {
+    border: 1px solid #d6dbdf;
+    border-radius: 3px;
+    text-align: center;
+}
+
+QProgressBar::chunk {
+    background-color: #3498db;
+    border-radius: 2px;
+}
+
+/* Dropdown arrows */
+QComboBox::down-arrow {
+    image: url('data:image/svg+xml;utf8,<svg ...>');  /* Blue arrow SVG */
+}
+
+/* Table views */
+QTableView {
+    alternate-background-color: #f8f9fa;
+    gridline-color: #d6dbdf;
+}
+
+QHeaderView::section {
+    background-color: #3498db;
+    color: white;
+    padding: 6px;
+    border: none;
+}
