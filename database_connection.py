@@ -7,8 +7,8 @@ def get_user_home_dir():
     return os.path.expanduser('~')
 
 # Define paths
-APP_DIR = os.path.join(get_user_home_dir(), 'SMART_QUESTIONS')
-DATABASE_FILENAME = 'questions_bank_v3.db'
+APP_DIR = os.path.join(get_user_home_dir(), 'MAIN_FOLDER_FOR_DB')
+DATABASE_FILENAME = 'db_name.db'
 DATABASE_FILE = os.path.join(APP_DIR, DATABASE_FILENAME)
 
 def get_db_connection():

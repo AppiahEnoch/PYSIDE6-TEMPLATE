@@ -4,7 +4,7 @@ from sidebar_view import SidebarView
 class DashboardView(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("SMART QUESTIONS BANK")
+        self.setWindowTitle("APP MAIN TITLE")
         self.setGeometry(100, 100, 1000, 500)
         self.load_stylesheet()
         self.set_window_icon()

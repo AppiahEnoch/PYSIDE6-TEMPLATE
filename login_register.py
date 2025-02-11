@@ -11,7 +11,7 @@ class LoginRegisterUI(QWidget):
         self.center_window()
 
     def initUI(self):
-        self.setWindowTitle('SMART QUESTIONS')
+        self.setWindowTitle('APP TITLE')
         self.setFixedWidth(300)
         self.setFixedHeight(self.login_height)  # Start with login height
 
